@@ -1,0 +1,230 @@
+.bodylogin{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.login{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    
+}
+input{
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+    align-items: center;
+}
+.inputSubmit{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    
+}
+.inputSubmit:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.mensagem-div{
+    background-color: red;
+}
+.body-div{
+
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    max-width:1440px;
+    width: 100%;
+    background: #fff;
+    box-shadow:  2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.container h2{
+    padding:  2rem 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+.tbl{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.tbl thead{
+    background:  #424949;
+    color: #fff;
+}
+.tbl thead tr th{
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    letter-spacing:  0.2rem;
+    vertical-align:  top;
+    border:  1px solid #aab7b8;
+
+}.tbl tbody tr td{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #aab7b8;
+    padding: 0.8rem;
+}
+
+.tbl tr:nth-child(even){
+    background: #ccc;
+}
+.tbl tr:hover td{
+    background:  #839192;
+    color: #000;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.tbl button{
+    display: inline-block;
+    border: none;
+    margin: 0 auto;
+    padding: 0.4rem;
+    border-radius: 1px;
+    outline: none;
+    cursor: pointer;
+}
+.btn_trash{
+    background: #e74c3c;
+    color: #fff;
+}
+.btn_edit{
+    background-color: #1e8449;
+    color: #fff;
+}
+.bodylist{
+background: #ccc;
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 100vh
+}
+
+/* style.css */
+
+/* Reset de margens e padding para garantir consistência entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+.custom-body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para o container do formulário */
+.custom-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilo para os campos do formulário */
+.custom-label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão de submit */
+.custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.custom-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-link:hover {
+    background-color: #0056b3;
+}
+
+.custom-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-link:hover {
+    background-color: #0056b3;
+    color: #fff; /* Adicionei para garantir que a cor do texto permaneça branca ao passar o mouse */
+
+
+}
+#mensagem {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
